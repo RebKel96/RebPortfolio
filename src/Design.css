@@ -1,0 +1,199 @@
+@font-face {
+    font-family: 'Aldrich';
+    src: url(C:\Users\rkbk9\Documents\WebDev\firstreactapp\Aldrich-Regular.ttf);
+  }
+  @font-face {
+    font-family: 'GeoSoft';
+    src: url(C:\Users\rkbk9\Documents\WebDev\firstreactapp\Geometry_Soft_Pro-Bold_N.otf);
+  }
+  @font-face {
+    font-family: 'Dobkin';
+    src: url(C:\Users\rkbk9\Documents\WebDev\firstreactapp\DOS_____.TTF);
+  }
+
+
+.design {
+    width: 50vw;
+    height:83vh;
+    position:absolute;
+    background-image: url('C:\Users\rkbk9\Documents\WebDev\firstreactapp\designBG.JPG');
+    background-position: 50%;
+    background-size: cover;
+    color: #1d0f3a;
+    transition: all 1000ms;
+  }
+
+  .aboutMeDesktop{
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .skillListMobile{
+    visibility: hidden;
+    height: 0;
+  }
+
+  .expandParagraphs {
+    visibility: hidden;
+    height: 0;
+  }
+
+  
+  .design h1 {
+    margin-top: 33vh;
+    font-family: Dobkin;
+    font-size: 8vw;
+    text-align: center;
+    transition:cubic-bezier(0.075, 0.82, 0.165, 1) 1000ms;
+    direction: ltr;
+  }
+  
+  .design:hover {
+    color: red;
+    cursor: url('C:\Users\rkbk9\Documents\WebDev\firstreactapp\src\LogoCursorD.png'), auto;
+  }
+  .design--clicked h1{
+    margin-top: 8rem;
+    font-size: 5vw;
+  }
+  .design--clicked:hover {
+    color: #1d0f3a;
+    cursor: url('C:\Users\rkbk9\Documents\WebDev\firstreactapp\src\LogoCursorD.png'), auto;
+  }
+  
+  .design--clicked {
+    direction: ltr;
+    width: 100vw;
+    text-align: justify;
+    height: fit-content;
+  
+  }
+  
+  .designPg {
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-bottom: 200px;
+  }
+  
+  
+  .designPg p {
+    line-height: 1.5;
+  }
+  
+  .designPg h2 {
+    font-size: 1.2rem;
+  }
+
+  .dLink {
+    padding-bottom: 10rem;
+    
+    border-top-style: groove;
+    border-width: 1.5pt;
+    border-color: #1d0f3a65;
+    background-color: rgba(236, 221, 140, 0.185);
+  }
+
+  .mobileImage{
+    visibility: hidden;
+    height: 0;
+  }
+  
+  .dLink h1 {
+    font-size: 1.5rem;
+    font-family: GeoSoft;
+    margin-top: 0;
+    padding-top: 4rem;
+  }
+
+  .dLink h3 {
+    font-size: .75rem;
+    text-align: center;
+  }
+
+  .dLink iframe{
+    margin: 0 auto;
+    margin-top: 3rem;
+    display: block;
+    width: 35rem;
+    height: 20rem;
+    border-style: solid;
+    border-width: 5pt;
+    border-color: #83738a;
+    border-radius: 2pt;
+  }
+
+  .dLink p{
+    max-width: 60%;
+    margin: 0 auto;
+  }
+
+  .dLink:nth-child(even){
+    background-color: #610c8325;
+  }
+
+
+
+  @media screen and (max-width: 500px) {
+    .design--clicked h1{
+        margin-top: 2rem;
+        font-size: 5rem;
+      }
+
+      .dLink iframe{
+        width: 18rem;
+        height: 10rem;
+      }
+
+      .skillListMobile{
+        visibility: visible;
+        height:fit-content;
+        width: 70%;
+        margin: 0 auto;
+      }
+
+      .mobileImage{
+        visibility: visible;
+        width: 65%;
+        height: auto;
+        margin-left: 18%;
+        margin-top: 2rem;
+      }
+
+      .dLink h1 {
+        font-size: 1.8rem;
+        font-family: GeoSoft;
+        margin-top: 0;
+      }
+
+      .aboutMeDesktop{
+        visibility: hidden;
+        height: 0;
+      }
+
+      .expandParagraphs {
+        visibility: visible;
+        width: 80vw;
+        height: auto;
+        border-style: solid;
+        border-color: #1d0f3a;
+        border-radius: 3px;
+        margin-top: 3rem;
+        margin: 0 auto;
+        margin-bottom: 3rem;
+      }
+
+      .expandParagraphs p {
+        margin: 20px;
+        font-size: 15px;
+        word-spacing:normal;
+      }
+
+
+      .expandParagraphs h2 {
+        font-size: 95%;
+        line-height: 3;
+        text-align: center;
+      }
+
+
+}

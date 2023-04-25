@@ -1,0 +1,136 @@
+.carousel {
+    width:35rem;
+    height: 18rem;
+    margin: 0 auto;
+    background-color: #b8b8b8;
+  }
+
+  .upper {
+    text-align: center;
+  }
+  
+  .imageScreen {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #000000da;
+    display: block;
+    height: auto;
+    max-width: 100%;
+    line-height: 1;
+    width: 100%;
+    z-index: 3; /* set a high z-index value */
+  }
+  
+  .x {
+    height: 4rem;
+    width: 4rem;
+    position:relative;
+    right: 0px;
+    bottom: 350px;
+    filter: invert(60%);
+  }
+
+  .x:hover {
+    filter: invert(100%);
+  }
+  
+  .bigImage {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .bigImage img {
+    max-width: 80%;
+    max-height: 80%;
+    object-fit: contain;
+  }
+
+  
+  
+  .lower{
+    display:flex;
+  }
+  
+  .thumbnails img{
+    min-width: 0;
+    max-width: 110px;
+    width: 110px;
+    height: 100px;
+  }
+  
+  
+  .innerCarousel {
+    height: 100%;
+    width: 100%;
+    display: flex;
+  }
+  .innerCarousel:hover {
+    cursor:pointer;
+  }
+  
+  .innerCarousel .left {
+    flex: 10%;
+    height: 100%;
+    background-color: #35024950;
+  }
+  
+  .innerCarousel .left img {
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 7rem;
+    user-select: none;
+  }
+  
+  .innerCarousel .left:hover {
+    background-color: #35024975;
+  }
+  
+  .innerCarousel .center {
+    flex: 80%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat; 
+    background-position: center; 
+  }
+  
+  .innerCarousel .right {
+    flex: 10%;
+    height: 100%;
+    background-color: #35024950;
+  }
+  
+  .innerCarousel .right img{
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 7rem;
+    user-select: none;
+  
+  }
+  
+  .innerCarousel .right:hover {
+    background-color: #35024975;
+  }
+
+  @media screen and (max-width: 500px) {
+    .carousel {
+        visibility: hidden;
+        height: 0;
+      }
+      .upper{
+        visibility: hidden;
+        height: 0;
+      }
+  
+  }
+  

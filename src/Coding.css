@@ -1,0 +1,63 @@
+.code h1 {
+    margin-top: 33vh;
+    font-family: Aldrich;
+    font-size: 8vw;
+    text-align: center;
+    transition:cubic-bezier(0.075, 0.82, 0.165, 1) 1000ms;
+  }
+  
+  .code--clicked h1{
+    margin-top: 8rem;
+    font-size: 5vw;
+  }
+  
+  .code {
+    width: 50vw;
+    height: 83vh;
+    position: absolute;
+    right: 0;
+    background-image: url('C:\Users\rkbk9\Documents\WebDev\firstreactapp\codeBG.png');
+    background-size: cover;
+    text-align: center;
+    font-size: 4vw;
+    color: #d7c3fc;
+    margin-left: 0;
+    transition: all 1000ms;
+    cursor: url('C:\Users\rkbk9\Documents\WebDev\firstreactapp\src\LogoCursorL.png'), auto;
+  }
+  .code:hover {
+    color:red;
+  }
+  .code--clicked {
+    width: 100vw;
+    height:fit-content;
+    text-align: justify;
+  }
+  .code--clicked:hover {
+    color: #d7c3fc;
+  }
+  
+  .codePg{
+    margin: 0 auto;
+    width: clamp(300px, 50%, 1000px);
+    margin-top: 0px;
+    font-size: 1rem;
+    margin-bottom: 500px;
+  }
+
+  .codePg p{
+    line-height: 1.5;
+  }
+
+  .codeProjects {
+    margin-top: 10rem;
+    display: block;
+    text-align: center;
+  }
+
+  .codeProjects iframe{
+    width: 35rem;
+    height: 20rem;
+    margin: 0 auto;
+    display: block;
+  }
