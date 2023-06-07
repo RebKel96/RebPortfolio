@@ -55,6 +55,7 @@ body {
 .mainBody {
   height: 83vh;
   display: flex;
+  overflow: hidden;
 }
 
 .arrow {
@@ -70,7 +71,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  width: 5%;
+  width: 7%;
   height: 100%;
   transition: ease-in-out 300ms;
   transform: scaleX(-1);
