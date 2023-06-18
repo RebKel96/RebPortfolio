@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/RebPortfolio/static/css/main.c6751563.css",
-    "main.js": "/RebPortfolio/static/js/main.56ef8568.js",
+    "main.css": "/RebPortfolio/static/css/main.665e45cd.css",
+    "main.js": "/RebPortfolio/static/js/main.165c148b.js",
     "static/js/787.d9aaa131.chunk.js": "/RebPortfolio/static/js/787.d9aaa131.chunk.js",
     "static/media/il1.jpg": "/RebPortfolio/static/media/il1.27900b224ac9d0f50554.jpg",
     "static/media/il3.png": "/RebPortfolio/static/media/il3.377261d45a2dcdded4cd.png",
@@ -32,12 +32,13 @@
     "static/media/arrow.svg": "/RebPortfolio/static/media/arrow.241ff11707ddfa054c7fbd5829a22e05.svg",
     "static/media/caret-right-solid.svg": "/RebPortfolio/static/media/caret-right-solid.3c29e82a0b8404d498800c4fc9a4b333.svg",
     "static/media/caret-left-solid.svg": "/RebPortfolio/static/media/caret-left-solid.6542a0051a5b3adbf4960d1aae0354b4.svg",
-    "main.c6751563.css.map": "/RebPortfolio/static/css/main.c6751563.css.map",
-    "main.56ef8568.js.map": "/RebPortfolio/static/js/main.56ef8568.js.map",
+    "static/media/sketchfab.svg": "/RebPortfolio/static/media/sketchfab.10507ecf017be6c15f6ffc84500d4a8d.svg",
+    "main.665e45cd.css.map": "/RebPortfolio/static/css/main.665e45cd.css.map",
+    "main.165c148b.js.map": "/RebPortfolio/static/js/main.165c148b.js.map",
     "787.d9aaa131.chunk.js.map": "/RebPortfolio/static/js/787.d9aaa131.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6751563.css",
-    "static/js/main.56ef8568.js"
+    "static/css/main.665e45cd.css",
+    "static/js/main.165c148b.js"
   ]
 }
