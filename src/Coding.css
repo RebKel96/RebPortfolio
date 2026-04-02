@@ -40,13 +40,15 @@
   
   .codePg{
     margin: 0 auto;
-    width: clamp(300px, 50%, 1000px);
     margin-top: 0px;
     font-size: 1rem;
   }
 
   .codePg p{
     line-height: 1.5;
+    max-width: 70%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
   }
 
   .codeProjects {
@@ -72,7 +74,14 @@
   }
 
   .my-code-project{
-    margin-top: 10rem;
+    padding-bottom: 10rem;   
+    border-top-style: groove;
+    border-width: 1.5pt;
+    border-color: #1d0f3a65;
+    background-color: rgba(54, 14, 233, 0.068);
+  }
+  .my-code-project:nth-child(even){
+    background-color: rgba(219, 0, 47, 0.068);
   }
   .mobile-message {
     visibility: collapse;
@@ -113,8 +122,58 @@
     font-size: 1.5rem;
     width: 1.5rem;
   }
+  .codeMobile {
+    visibility: hidden;
+    height: 0;
+  }
+
+  .codeDesktop {
+    visibility: visible;
+    height:fit-content;
+    width: 70%;
+    margin: 0 auto;
+  }
 
   @media screen and (max-width: 500px){
+    .expandParagraphsC {
+      visibility: visible;
+      width: 80vw;
+      height: auto;
+      border-style: solid;
+      border-color: #eadfff;
+      border-radius: 3px;
+      margin-top: 3rem;
+      margin: 0 auto;
+      margin-bottom: 3rem;
+    }
+
+    .expandParagraphsC p {
+      font-size: 12px;
+    }
+
+
+    .expandParagraphsC h2 {
+      font-size: 95%;
+      line-height: 3;
+      text-align: center;
+    }
+
+
+    .codeDesktop {
+      visibility: hidden;
+      height: 0;
+    }
+
+    .codeMobile {
+      visibility: visible;
+      height:fit-content;
+    }
+
+
+    .code--clicked h1{
+      margin-top: 2rem;
+      font-size: 5rem;
+    }
     .codeProjects {
       visibility: hidden;
       height: 0;
@@ -122,6 +181,14 @@
 
     .mobile-message{
       visibility: visible;
+      max-width: 70%;
+      margin: 0 auto;  
+      margin-top: -8rem;
+      margin-bottom: 3rem;
+    }
+
+    .codePg{
+      font-size: .8rem;
     }
 
 

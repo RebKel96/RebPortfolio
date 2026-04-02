@@ -73,7 +73,6 @@
   .designPg {
     margin: 0 auto;
     margin-top: 0px;
-    margin-bottom: 200px;
   }
   
   
@@ -140,6 +139,10 @@
         font-size: 5rem;
       }
 
+      .designPg{
+        font-size: .8rem;
+      }
+
       .dLink iframe{
         width: 18rem;
         height: 10rem;
@@ -185,7 +188,7 @@
 
       .expandParagraphs p {
         margin: 20px;
-        font-size: 15px;
+        font-size: 12px;
         word-spacing:normal;
       }
 
